@@ -192,8 +192,8 @@
   },
   {
     "name": "dsh-mcp-connector",
-    "version": "0.2.87",
-    "published": "2026-10-31T06:23:04.545Z",
+    "version": "0.2.88",
+    "published": "2026-10-31T15:29:18.497Z",
     "description": "DeepSeek Harness MCP Connector: connect servers, search tools across active connections, and troubleshoot discovery. Includes a continuously updated catalog; supports OAuth 2.0 PKCE, API keys, Streamable HTTP/stdio, and mcpServers JSON import.",
     "homepage": "https://github.com/duhu2000/dsh-mcp-connector#readme",
     "repository": "https://github.com/duhu2000/dsh-mcp-connector",
@@ -261,8 +261,8 @@
   },
   {
     "name": "dsh-builtin-browser",
-    "version": "0.4.15",
-    "published": "2026-10-24T18:41:15.690Z",
+    "version": "0.5.1",
+    "published": "2026-10-31T14:51:11.205Z",
     "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (dsh_browser_auth), C",
     "homepage": "https://github.com/wqty123/dsh-browser",
     "repository": "https://github.com/wqty123/dsh-browser",
