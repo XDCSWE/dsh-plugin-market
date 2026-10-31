@@ -60,9 +60,24 @@ try {
     }
   }
 
+  if (-not $NoPush) {
+    Write-Host ""
+    Write-Host "      刷新 jsDelivr 缓存 ..." -ForegroundColor DarkGray
+    try {
+      $purge = Invoke-RestMethod -TimeoutSec 30 -Uri "https://purge.jsdelivr.net/gh/XDCSWE/dsh-plugin-market@main/index.json"
+      if ($purge.status -eq 'finished') {
+        Write-Host "      CDN 缓存已刷新。" -ForegroundColor DarkGray
+      }
+    } catch {
+      Write-Host "      CDN 刷新失败（不影响仓库，缓存最长 12 小时后自然过期）" -ForegroundColor Yellow
+    }
+  }
+
   Write-Host ""
-  Write-Host "完成。GitHub Pages 通常 30-60 秒后生效：" -ForegroundColor Green
-  Write-Host "  https://xdcswe.github.io/dsh-plugin-market/index.json" -ForegroundColor Green
+  Write-Host "完成。索引地址（jsDelivr，推荐）：" -ForegroundColor Green
+  Write-Host "  https://cdn.jsdelivr.net/gh/XDCSWE/dsh-plugin-market@main/index.json" -ForegroundColor Green
+  Write-Host "GitHub Pages 备用：" -ForegroundColor DarkGray
+  Write-Host "  https://xdcswe.github.io/dsh-plugin-market/index.json" -ForegroundColor DarkGray
   exit 0
 } catch {
   Write-Host ""

@@ -19,24 +19,29 @@ tools/_meta.json    抓取结果缓存
 ## 在 DSH 里添加
 
 1. 打开 **插件** → **发现** → **添加索引源**。
-2. 填入地址：
+2. 填入地址（jsDelivr，推荐；国内直连稳定在 1–3 秒）：
 
    ```
-   http://127.0.0.1:8788/index.json
-   ```
-
-   该地址由 `tools/_serve.mjs` 提供，只在那个进程活着时可用：
-
-   ```powershell
-   node tools/_serve.mjs 8788
+   https://cdn.jsdelivr.net/gh/XDCSWE/dsh-plugin-market@main/index.json
    ```
 
 3. 添加后可搜索、按分类/标签筛选，点卡片进详情页安装。
 
-## 长期使用：换成固定地址
+## 三个可用地址
 
-本地服务关掉索引源就会报错。要长期可用，把 `index.json` 和 `icons/` 一起传到任意静态主机
-（GitHub Pages、对象存储、内网 nginx 都行），然后把这个 URL 填进去即可：
+| 地址 | 特点 |
+| --- | --- |
+| `https://cdn.jsdelivr.net/gh/XDCSWE/dsh-plugin-market@main/index.json` | **推荐**。CDN 缓存，稳定快速；脚本推送后会自动 purge 立即生效 |
+| `https://xdcswe.github.io/dsh-plugin-market/index.json` | GitHub Pages 原生地址，`185.199.x` 网段在国内时通时不通 |
+| `http://127.0.0.1:8788/index.json` | 本地兜底，需先 `node tools/_serve.mjs 8788`，仅本机可用 |
+
+## 更新流程
+
+双击桌面上的 **更新**，或在本目录执行 `powershell -NoProfile -ExecutionPolicy Bypass -File tools\publish.ps1`
+（加 `-NoPush` 则只重新生成和校验、不提交推送）。
+
+脚本会：拉取 npm 最新版本 → 重建 `index.json` 和图标 → 用官方校验器验证 → 提交推送 →
+purge jsDelivr 缓存。
 
 - 必须是 `http:` 或 `https:`，不能带用户名密码和 `#` 片段；
 - 不能经过重定向（指向最终地址）；
