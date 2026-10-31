@@ -1,0 +1,651 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Community Picks",
+    "zh": "DSH 社区精选"
+  },
+  "description": {
+    "en": "Eighteen community bundles checked as installable on dsh 0.2.1-rc.5. Third-party packages: review the source before installing.",
+    "zh": "18 个已核对可在 dsh 0.2.1-rc.5 上安装的社区组合包。第三方包，安装前请先核对来源。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率工具"
+        }
+      },
+      "appearance": {
+        "title": {
+          "en": "Appearance",
+          "zh": "外观主题"
+        }
+      },
+      "model": {
+        "title": {
+          "en": "Model capabilities",
+          "zh": "模型能力"
+        }
+      },
+      "memory": {
+        "title": {
+          "en": "Memory and context",
+          "zh": "记忆与上下文"
+        }
+      },
+      "integration": {
+        "title": {
+          "en": "Integrations",
+          "zh": "集成连接"
+        }
+      },
+      "devtools": {
+        "title": {
+          "en": "Developer tools",
+          "zh": "开发与自动化"
+        }
+      }
+    },
+    "labels": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面插件"
+        }
+      },
+      "needs-setup": {
+        "title": {
+          "en": "Needs setup",
+          "zh": "需配置"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-context",
+      "title": {
+        "en": "Context inspector",
+        "zh": "上下文仪表盘"
+      },
+      "description": {
+        "en": "A dashboard and a /context command that show how the prompt is assembled and how it changes turn by turn.",
+        "zh": "仪表盘与 /context 命令，看清提示词由哪些内容组成，以及它如何逐轮演变。"
+      },
+      "icon": "icons/dsh-context.svg",
+      "versions": [
+        {
+          "version": "0.78.2",
+          "publishTimestamp": 1793324039,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "ui"
+        ]
+      },
+      "author": "bowenliang123",
+      "homepage": "https://github.com/bowenliang123/dsh-context",
+      "repository": {
+        "url": "https://github.com/bowenliang123/dsh-context"
+      }
+    },
+    {
+      "name": "dsh-cost-meter",
+      "title": {
+        "en": "Cost meter",
+        "zh": "会话费用统计"
+      },
+      "description": {
+        "en": "Per-session and per-day spend with a built-in price catalog for 170+ models and subscription quota lookups.",
+        "zh": "统计本会话与当日花费，内置 170+ 模型价格目录，并支持订阅额度查询。"
+      },
+      "icon": "icons/dsh-cost-meter.svg",
+      "versions": [
+        {
+          "version": "1.9.46",
+          "publishTimestamp": 1793255545,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+      "repository": {
+        "url": "https://github.com/Han-1413141/dsh-cost-meter"
+      }
+    },
+    {
+      "name": "@michengai/dsh-archive-manager",
+      "title": {
+        "en": "Session archive",
+        "zh": "会话归档管理"
+      },
+      "description": {
+        "en": "Archive, restore, favourite and permanently delete sessions, and diagnose damaged session logs.",
+        "zh": "归档、恢复、收藏与永久删除会话，还能诊断损坏的会话日志。"
+      },
+      "icon": "icons/dsh-archive-manager.svg",
+      "versions": [
+        {
+          "version": "1.1.22",
+          "publishTimestamp": 1793349357,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/MichengAI/dsh-archive-manager#readme",
+      "repository": {
+        "url": "https://github.com/MichengAI/dsh-archive-manager"
+      }
+    },
+    {
+      "name": "dsh-unlag",
+      "title": {
+        "en": "Reload button",
+        "zh": "一键刷新"
+      },
+      "description": {
+        "en": "Reload plugins and recover a slow interface without restarting the app, leaving running sessions untouched.",
+        "zh": "改完插件或界面变卡时一键重载，无需重启应用，正在进行的会话不受影响。"
+      },
+      "icon": "icons/dsh-unlag.svg",
+      "versions": [
+        {
+          "version": "1.14.16",
+          "publishTimestamp": 1793386429,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "ui"
+        ]
+      },
+      "author": "regrevia",
+      "homepage": "https://github.com/regrevia/dsh-unlag#readme",
+      "repository": {
+        "url": "https://github.com/regrevia/dsh-unlag"
+      }
+    },
+    {
+      "name": "dsh-claude-style",
+      "title": {
+        "en": "Claude-style theme",
+        "zh": "Claude 风格主题"
+      },
+      "description": {
+        "en": "A Claude Code Desktop flavoured theme and interaction overhaul for the web interface.",
+        "zh": "把 Web 界面换成 Claude Code 桌面版的配色、排版与交互风格。"
+      },
+      "icon": "icons/dsh-claude-style.svg",
+      "versions": [
+        {
+          "version": "0.19.6",
+          "publishTimestamp": 1793335673,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "ui"
+        ]
+      },
+      "author": "Nwflower",
+      "homepage": "https://github.com/Nwflower/dsh-claude-style#readme",
+      "repository": {
+        "url": "https://github.com/Nwflower/dsh-claude-style"
+      }
+    },
+    {
+      "name": "dsh-whale-widget",
+      "title": {
+        "en": "Balance whale",
+        "zh": "余额小鲸鱼"
+      },
+      "description": {
+        "en": "A corner widget showing DeepSeek balance, usage today and peak/off-peak pricing, with custom lines and sounds.",
+        "zh": "右下角的小鲸鱼挂件：显示余额、今日已用与峰谷定价，气泡台词和音效都能自定义。"
+      },
+      "icon": "icons/dsh-whale-widget.svg",
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1791721632,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget#readme",
+      "repository": {
+        "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"
+      }
+    },
+    {
+      "name": "dsh-pet",
+      "title": {
+        "en": "Desktop fish",
+        "zh": "桌面宠物"
+      },
+      "description": {
+        "en": "A blue fish that wanders the interface, naps, reacts to your session and nudges you about your balance.",
+        "zh": "赖在界面里的蓝色大肥鱼：会溜达、会打盹，跟着会话忙前忙后。"
+      },
+      "icon": "icons/dsh-pet.svg",
+      "versions": [
+        {
+          "version": "0.3.8",
+          "publishTimestamp": 1792639178,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/PC2005-cloud/dsh-pet#readme",
+      "repository": {
+        "url": "https://github.com/PC2005-cloud/dsh-pet"
+      }
+    },
+    {
+      "name": "dsh-plugin-wallpaper-engine",
+      "title": {
+        "en": "Wallpaper Engine",
+        "zh": "壁纸引擎背景"
+      },
+      "description": {
+        "en": "Render local Wallpaper Engine scenes and videos behind the chat, with adjustable liquid-glass blur.",
+        "zh": "把本机 Wallpaper Engine 的场景、网页和视频壁纸铺到聊天背景，模糊程度可调。"
+      },
+      "icon": "icons/dsh-wallpaper-engine.svg",
+      "versions": [
+        {
+          "version": "1.4.0",
+          "publishTimestamp": 1792662730,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.1"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/elysia395/dsh-wallpaper-engine#readme",
+      "repository": {
+        "url": "https://github.com/elysia395/dsh-wallpaper-engine"
+      }
+    },
+    {
+      "name": "dsh-free-search",
+      "title": {
+        "en": "Free web search",
+        "zh": "免费联网搜索"
+      },
+      "description": {
+        "en": "Web search across 27 engines — Bing, DuckDuckGo, SearXNG, Tavily, Exa and more — mostly without an API key.",
+        "zh": "接入 27 个搜索引擎的联网搜索（Bing、DuckDuckGo、SearXNG、Tavily、Exa 等），多数无需 API Key。"
+      },
+      "icon": "icons/dsh-free-search.svg",
+      "versions": [
+        {
+          "version": "0.9.26",
+          "publishTimestamp": 1793443238,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "model",
+        "labels": [
+          "needs-setup"
+        ]
+      },
+      "homepage": "https://github.com/DDDMUC/dsh-free-search#readme",
+      "repository": {
+        "url": "https://github.com/DDDMUC/dsh-free-search"
+      }
+    },
+    {
+      "name": "dsh-image-gen",
+      "title": {
+        "en": "Image generation",
+        "zh": "图像生成"
+      },
+      "description": {
+        "en": "Generate images from the chat box through Gemini, OpenAI, Seedream, DashScope or a local ComfyUI.",
+        "zh": "在对话框里直接生成图片，支持 Gemini、OpenAI、Seedream、DashScope 与本地 ComfyUI。"
+      },
+      "icon": "icons/dsh-image-gen.svg",
+      "versions": [
+        {
+          "version": "0.10.0",
+          "publishTimestamp": 1793189238,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "model",
+        "labels": [
+          "ui",
+          "needs-setup"
+        ]
+      },
+      "author": "shanliuling",
+      "homepage": "https://github.com/shanliuling/dsh-image-gen#readme",
+      "repository": {
+        "url": "https://github.com/shanliuling/dsh-image-gen"
+      }
+    },
+    {
+      "name": "dsh-mnemon",
+      "title": {
+        "en": "Composable context",
+        "zh": "可组合上下文"
+      },
+      "description": {
+        "en": "View-based context with pluggable sources and strategies, layered memory and self-evolving skills.",
+        "zh": "视图式上下文：可插拔的记忆来源与策略，分层记忆并自带可自演化的技能。"
+      },
+      "icon": "icons/dsh-mnemon.svg",
+      "versions": [
+        {
+          "version": "0.5.37",
+          "publishTimestamp": 1793270354,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "memory",
+        "labels": []
+      },
+      "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/dsh-mnemon"
+      }
+    },
+    {
+      "name": "meow-memory",
+      "title": {
+        "en": "Project memory",
+        "zh": "项目记忆"
+      },
+      "description": {
+        "en": "Cross-session project memory on SQLite, with automatic reflection and idle-time consolidation.",
+        "zh": "基于 SQLite 的跨会话项目记忆，自动反思并在空闲时整理归纳。"
+      },
+      "icon": "icons/meow-memory.svg",
+      "versions": [
+        {
+          "version": "0.32.3",
+          "publishTimestamp": 1793453798,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "memory",
+        "labels": []
+      },
+      "homepage": "https://github.com/Phant0Meow/dsh-meow-memory#readme",
+      "repository": {
+        "url": "https://github.com/Phant0Meow/dsh-meow-memory"
+      }
+    },
+    {
+      "name": "dsh-mcp-connector",
+      "title": {
+        "en": "MCP connector",
+        "zh": "MCP 连接器"
+      },
+      "description": {
+        "en": "Connect MCP servers over stdio or Streamable HTTP, search tools across connections and troubleshoot discovery.",
+        "zh": "连接 stdio 或 Streamable HTTP 的 MCP 服务器，跨连接搜索工具并排查发现失败。"
+      },
+      "icon": "icons/dsh-mcp-connector.svg",
+      "versions": [
+        {
+          "version": "0.2.87",
+          "publishTimestamp": 1793427784,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/duhu2000/dsh-mcp-connector#readme",
+      "repository": {
+        "url": "https://github.com/duhu2000/dsh-mcp-connector"
+      }
+    },
+    {
+      "name": "@tencent-connect/dsh-qqbot",
+      "title": {
+        "en": "QQ bot",
+        "zh": "QQ 机器人"
+      },
+      "description": {
+        "en": "Talk to DeepSeek Harness from QQ private chats and group chats.",
+        "zh": "在 QQ 私聊和群聊里直接对话 DeepSeek Harness。"
+      },
+      "icon": "icons/dsh-qqbot.svg",
+      "versions": [
+        {
+          "version": "0.5.5",
+          "publishTimestamp": 1793375955,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "needs-setup"
+        ]
+      },
+      "homepage": "https://github.com/tencent-connect/dsh-qqbot#readme",
+      "repository": {
+        "url": "https://github.com/tencent-connect/dsh-qqbot"
+      }
+    },
+    {
+      "name": "dsh-mobile",
+      "title": {
+        "en": "Mobile access",
+        "zh": "移动端访问"
+      },
+      "description": {
+        "en": "Phone and remote access for DSH over LAN, Tailscale, frp or a reverse proxy.",
+        "zh": "为手机和远程访问做适配：局域网、Tailscale、frp、反向代理都能连。"
+      },
+      "icon": "icons/dsh-mobile.svg",
+      "versions": [
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1793330210,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "ui",
+          "needs-setup"
+        ]
+      },
+      "homepage": "https://github.com/saya-ch/dsh-mobile#readme",
+      "repository": {
+        "url": "https://github.com/saya-ch/dsh-mobile"
+      }
+    },
+    {
+      "name": "dsh-remote",
+      "title": {
+        "en": "SSH remote work",
+        "zh": "SSH 远程协作"
+      },
+      "description": {
+        "en": "Connect SSH hosts, pick a remote workspace and work there through 22 rw_* tools with mirrored sync.",
+        "zh": "连接 SSH 主机、选择远程工作区，用 22 个 rw_* 工具操作并双向同步修改。"
+      },
+      "icon": "icons/dsh-remote.svg",
+      "versions": [
+        {
+          "version": "0.8.67",
+          "publishTimestamp": 1793434483,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "devtools",
+        "labels": [
+          "ui",
+          "needs-setup"
+        ]
+      },
+      "author": "flymysql",
+      "homepage": "https://github.com/flymysql/dsh-remote",
+      "repository": {
+        "url": "https://github.com/flymysql/dsh-remote"
+      }
+    },
+    {
+      "name": "dsh-builtin-browser",
+      "title": {
+        "en": "Real browser",
+        "zh": "真实浏览器"
+      },
+      "description": {
+        "en": "A visible Chromium the agent drives over CDP, with human takeover and persistent cookies.",
+        "zh": "给 Agent 一个真实可见的 Chromium，通过 CDP 驱动，人可随时接管，Cookie 可持久化。"
+      },
+      "icon": "icons/dsh-builtin-browser.svg",
+      "versions": [
+        {
+          "version": "0.4.15",
+          "publishTimestamp": 1792867275,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.3.0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "devtools",
+        "labels": []
+      },
+      "homepage": "https://github.com/wqty123/dsh-browser",
+      "repository": {
+        "url": "https://github.com/wqty123/dsh-browser"
+      }
+    },
+    {
+      "name": "@michengai/dsh-skills-manager",
+      "title": {
+        "en": "Skills manager",
+        "zh": "技能管理器"
+      },
+      "description": {
+        "en": "Load and safely manage the local Agent Skills of this machine from one place.",
+        "zh": "在一处统一加载并安全管理本机的 Agent 技能。"
+      },
+      "icon": "icons/dsh-skills-manager.svg",
+      "versions": [
+        {
+          "version": "1.2.24",
+          "publishTimestamp": 1793436691,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "devtools",
+        "labels": [
+          "ui"
+        ]
+      },
+      "homepage": "https://github.com/MichengAI/dsh-skills-manager#readme",
+      "repository": {
+        "url": "https://github.com/MichengAI/dsh-skills-manager"
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "dsh-context",
+    "version": "0.78.2",
+    "published": "2026-10-30T01:33:59.793Z",
+    "description": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves.",
+    "homepage": "https://github.com/bowenliang123/dsh-context",
+    "repository": "https://github.com/bowenliang123/dsh-context",
+    "author": "bowenliang123",
+    "license": "Apache-2.0",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2",
+    "peers": {
+      "@deepseek-ai/dsh-session": ">=0.2.0-rc.2 || >=0.2.1-rc.2",
+      "@deepseek-ai/dsh-client-ui-primitives": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+    }
+  },
+  {
+    "name": "dsh-cost-meter",
+    "version": "1.9.46",
+    "published": "2026-10-29T06:32:25.722Z",
+    "description": "DeepSeek Harness 会话费用统计插件:本会话成本、当日费用、历史记录与官方价格同步,支持多厂商多模型价格计费(内置 170+ 模型 ID 价格目录与自动匹配)、主流 Coding Plan 订阅额度查询与显示(16 家,含 WorkBuddy 官方积分、OpenDesign 工作区查询、含小米 MiMo Token Plan 控制台 Cookie 查询、SCNet Token Plan 本地 Credits 计量与火山方舟 Volcano Ark Coding Plan AK/SK 签名查询",
+    "homepage": "https://github.com/Han-1413141/dsh-cost-meter#readme",
+    "repository": "https://github.com/Han-1413141/dsh-cost-meter",
+    "license": "MIT",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.1 <0.3.0-0",
+    "peers": {
+      "@deepseek-ai/dsh-home-paths": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.3.0-0",
+      "@deepseek-ai/dsh-credentials": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
+    }
+  },
+  {
+    "name": "@michengai/dsh-archive-manager",
+    "version": "1.1.22",
+    "published": "2026-10-30T08:35:57.972Z",
+    "description": "归档、恢复、收藏和永久删除会话，并诊断损坏的会话日志。 · Archive, restore, favorite, and permanently delete sessions, and diagnose damaged session logs.",
+    "homepage": "https://github.com/MichengAI/dsh-archive-manager#readme",
+    "repository": "https://github.com/MichengAI/dsh-archive-manager",
+    "license": "Apache-2.0",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.1 <0.3.0-0",
+    "peers": {
+      "@deepseek-ai/dsh-session": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-workspace": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-spill-local": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-locale": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-host-webserver": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-storage-domain": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-typert-protocol": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-typert-registry": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-connection": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-sidebar": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-workspace": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-primitives": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-conversation": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-session-format-catalog": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-session-projection-cache": ">=0.2.0-rc.1 <0.3.0-0"
+    }
+  },
+  {
+    "name": "dsh-unlag",
+    "version": "1.14.16",
+    "published": "2026-10-30T18:53:49.272Z",
+    "description": "DSH 桌面端自己的刷新按钮：改插件不用重启、开久了卡了也点一下，正在进行的会话不受影响。",
+    "homepage": "https://github.com/regrevia/dsh-unlag#readme",
+    "repository": "https://github.com/regrevia/dsh-unlag",
+    "author": "regrevia",
+    "license": "MIT",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.1",
+    "peers": {}
+  },
+  {
+    "name": "dsh-claude-style",
+    "version": "0.19.6",
+    "published": "2026-10-30T04:47:53.488Z",
+    "description": "Claude Code Desktop theme for DeepSeek Harness (dsh) web GUI — visual & interaction overhaul",
+    "homepage": "https://github.com/Nwflower/dsh-claude-style#readme",
+    "repository": "https://github.com/Nwflower/dsh-claude-style",
+    "author": "Nwflower",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-client-ui-primitives": ">=0.1.5-rc.1"
+    }
+  },
+  {
+    "name": "dsh-whale-widget",
+    "version": "0.4.2",
+    "published": "2026-10-11T12:27:12.426Z",
+    "description": "DSH Web 界面右下角的 DeepSeek 余额小鲸鱼挂件:余额/今日已用/峰谷定价、自定义泡泡点击序列(文本/余额/今日/峰谷/图片/随机语句与并列加权选择)、逐行样式与字体、悬浮快捷编辑、音效与每轮消耗、自定义角色/动图/音效、吸附与翻转自定义",
+    "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget#readme",
+    "repository": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {}
+  },
+  {
+    "name": "dsh-pet",
+    "version": "0.3.8",
+    "published": "2026-10-22T03:19:38.514Z",
+    "description": "吃白饭的蓝色大肥鱼，赖在 DeepSeek Harness 里不走了。平时爱玩魔方、爱吃各种零食、偶尔打个盹，闲不住就在桌面上溜达两圈，被你拖来甩去也照旧赖着；你忙起来它跟着忙前忙后，也会帮你打理余额钱包，闲下来爱碎碎念，还乐意陪你唠两句。",
+    "homepage": "https://github.com/PC2005-cloud/dsh-pet#readme",
+    "repository": "https://github.com/PC2005-cloud/dsh-pet",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-llm": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-commands": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-home-paths": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-credentials": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-host-webserver": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-ui-slots": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-connection": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-agent-default-model": "^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-ui-primitives": "^0.2.0-rc.1"
+    }
+  },
+  {
+    "name": "dsh-plugin-wallpaper-engine",
+    "version": "1.4.0",
+    "published": "2026-10-22T09:52:10.972Z",
+    "description": "Wallpaper Engine backgrounds for the DSH web GUI: render your local Wallpaper Engine wallpapers behind the chat — Scene and Web in real time through the bundled WebWallGL engine, Video played directly — with iOS-style liquid glass, adjustable blur/scrim/b",
+    "homepage": "https://github.com/elysia395/dsh-wallpaper-engine#readme",
+    "repository": "https://github.com/elysia395/dsh-wallpaper-engine",
+    "license": "MIT",
+    "bundle": true,
+    "enginesDsh": "^0.2.0-rc.1",
+    "peers": {
+      "@deepseek-ai/dsh-client-runtime": ">=0.1.5-rc.1",
+      "@deepseek-ai/dsh-host-webserver": ">=0.1.5-rc.1",
+      "@deepseek-ai/dsh-client-ui-slots": ">=0.1.5-rc.1"
+    }
+  },
+  {
+    "name": "dsh-free-search",
+    "version": "0.9.26",
+    "published": "2026-10-31T10:40:38.056Z",
+    "description": "Free web search for DeepSeek Harness: 27 engines (Bing/DuckDuckGo/AnySearch/SearXNG/Exa/Tavily/Keenable/Firecrawl/Parallel/You.com keyless; Zhihu global/site via MCP and Perplexity/SerpBase/DeepSeek (official + native tools/search)/Baidu/Kimi/Aliyun/Douba",
+    "homepage": "https://github.com/DDDMUC/dsh-free-search#readme",
+    "repository": "https://github.com/DDDMUC/dsh-free-search",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-tools": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "@deepseek-ai/dsh-settings": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-ui-commands": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-ui-renderer": "^0.1.7-rc.1 || ^0.2.0-rc.1",
+      "@deepseek-ai/dsh-client-ui-plugin-manager": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+    }
+  },
+  {
+    "name": "dsh-image-gen",
+    "version": "0.10.0",
+    "published": "2026-10-28T12:07:18.832Z",
+    "description": "Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream, DashScope, local ComfyUI & more.",
+    "homepage": "https://github.com/shanliuling/dsh-image-gen#readme",
+    "repository": "https://github.com/shanliuling/dsh-image-gen",
+    "author": "shanliuling",
+    "license": "Apache-2.0",
+    "bundle": true,
+    "peers": {}
+  },
+  {
+    "name": "dsh-mnemon",
+    "version": "0.5.37",
+    "published": "2026-10-29T10:39:14.206Z",
+    "description": "Composable, view-based context for DeepSeek Harness. Pluggable sources and strategies, with layered memory and self-evolving skills out of the box.",
+    "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
+    "repository": "https://github.com/omdsh-dev/dsh-mnemon",
+    "license": "MIT",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0",
+    "peers": {
+      "@deepseek-ai/dsh-app-boot": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-typert-protocol": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+    }
+  },
+  {
+    "name": "meow-memory",
+    "version": "0.32.3",
+    "published": "2026-10-31T13:36:38.450Z",
+    "description": "Cross-session project memory for DeepSeek Harness: seven-layer SQLite memory, first-turn snapshot injection, per-message keyword hits, memory_remember/search/project tools, automatic reflection with reflection-fold UI, and idle-triggered dream consolidati",
+    "homepage": "https://github.com/Phant0Meow/dsh-meow-memory#readme",
+    "repository": "https://github.com/Phant0Meow/dsh-meow-memory",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-llm": "*"
+    }
+  },
+  {
+    "name": "dsh-mcp-connector",
+    "version": "0.2.87",
+    "published": "2026-10-31T06:23:04.545Z",
+    "description": "DeepSeek Harness MCP Connector: connect servers, search tools across active connections, and troubleshoot discovery. Includes a continuously updated catalog; supports OAuth 2.0 PKCE, API keys, Streamable HTTP/stdio, and mcpServers JSON import.",
+    "homepage": "https://github.com/duhu2000/dsh-mcp-connector#readme",
+    "repository": "https://github.com/duhu2000/dsh-mcp-connector",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-mcp-client": "^0.1.1-rc.2 || >=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-storage-domain": "*",
+      "@deepseek-ai/dsh-client-ui-layout": "*",
+      "@deepseek-ai/dsh-client-ui-conversation": "*"
+    }
+  },
+  {
+    "name": "@tencent-connect/dsh-qqbot",
+    "version": "0.5.5",
+    "published": "2026-10-30T15:59:15.778Z",
+    "description": "在 QQ 私聊和群聊里直接对话 DeepSeek Harness。 Chat with DeepSeek Harness in QQ private and group chats.",
+    "homepage": "https://github.com/tencent-connect/dsh-qqbot#readme",
+    "repository": "https://github.com/tencent-connect/dsh-qqbot",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-llm": ">=0.1.0-rc.6",
+      "@deepseek-ai/dsh-agent": ">=0.1.0-rc.6",
+      "@deepseek-ai/dsh-session": ">=0.1.0-rc.6",
+      "@deepseek-ai/dsh-user-approval": ">=0.1.0-rc.6"
+    }
+  },
+  {
+    "name": "dsh-mobile",
+    "version": "0.8.0",
+    "published": "2026-10-30T03:16:50.317Z",
+    "description": "DeepSeek Harness 移动端适配与安全访问插件，支持局域网、远程连接、Android App 和手机浏览器。",
+    "homepage": "https://github.com/saya-ch/dsh-mobile#readme",
+    "repository": "https://github.com/saya-ch/dsh-mobile",
+    "author": "",
+    "license": "Apache-2.0",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-llm": "*",
+      "@deepseek-ai/dsh-commands": "*",
+      "@deepseek-ai/dsh-host-webserver": "*",
+      "@deepseek-ai/dsh-client-connection": "*"
+    }
+  },
+  {
+    "name": "dsh-remote",
+    "version": "0.8.67",
+    "published": "2026-10-31T08:14:43.096Z",
+    "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password/key/agent/keyboard-interactive, multi-hop ProxyJump), pick a remote workspace, operate on it with 22 rw_* tools, conflict-aware mirror sync, an embedded PTY terminal, one-click remote dsh d",
+    "homepage": "https://github.com/flymysql/dsh-remote",
+    "repository": "https://github.com/flymysql/dsh-remote",
+    "author": "flymysql",
+    "license": "MIT",
+    "bundle": true,
+    "peers": {
+      "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6 <0.3.0",
+      "@deepseek-ai/dsh-commands": ">=0.1.0-rc.6 <0.3.0",
+      "@deepseek-ai/dsh-client-locale": ">=0.1.2-rc.1 <0.3.0",
+      "@deepseek-ai/dsh-system-prompt": ">=0.1.0-rc.6 <0.3.0",
+      "@deepseek-ai/dsh-host-webserver": ">=0.1.0-rc.6 <0.3.0",
+      "@deepseek-ai/dsh-client-connection": ">=0.1.2-rc.1 <0.3.0",
+      "@deepseek-ai/dsh-client-ui-renderer": ">=0.1.2-rc.1 <0.3.0"
+    }
+  },
+  {
+    "name": "dsh-builtin-browser",
+    "version": "0.4.15",
+    "published": "2026-10-24T18:41:15.690Z",
+    "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (dsh_browser_auth), C",
+    "homepage": "https://github.com/wqty123/dsh-browser",
+    "repository": "https://github.com/wqty123/dsh-browser",
+    "license": "MIT",
+    "bundle": true,
+    "enginesDsh": ">=0.1.1-rc.2 <0.3.0",
+    "peers": {
+      "@deepseek-ai/dsh-llm": ">=0.1.1-rc.2 <0.3.0",
+      "@deepseek-ai/dsh-tools": ">=0.1.1-rc.2 <0.3.0",
+      "@deepseek-ai/dsh-client-locale": ">=0.1.1-rc.2 <0.3.0",
+      "@deepseek-ai/dsh-system-prompt": ">=0.1.1-rc.2 <0.3.0",
+      "@deepseek-ai/dsh-client-ui-slots": ">=0.1.1-rc.2 <0.3.0",
+      "@deepseek-ai/dsh-client-ui-settings": ">=0.1.1-rc.2 <0.3.0"
+    }
+  },
+  {
+    "name": "@michengai/dsh-skills-manager",
+    "version": "1.2.24",
+    "published": "2026-10-31T08:51:31.859Z",
+    "description": "DSH Skills Manager — 在 DeepSeek Harness 中统一加载并安全管理本机 Agent Skills · Load and safely manage local Agent Skills in DSH",
+    "homepage": "https://github.com/MichengAI/dsh-skills-manager#readme",
+    "repository": "https://github.com/MichengAI/dsh-skills-manager",
+    "license": "Apache-2.0",
+    "bundle": true,
+    "enginesDsh": ">=0.2.0-rc.1 <0.3.0-0",
+    "peers": {
+      "@deepseek-ai/dsh-skill": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-tools": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-session": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-web-app": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-locale": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-host-webserver": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-slots": ">=0.2.0-rc.1 <0.3.0-0",
+      "@deepseek-ai/dsh-client-ui-primitives": ">=0.2.0-rc.1 <0.3.0-0"
+    }
+  }
+]
